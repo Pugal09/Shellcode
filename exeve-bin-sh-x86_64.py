@@ -18,5 +18,5 @@ syscall
 """
 
 shellcode = asm(shellcode)
-log.info(f"bytes of shellcode: {shellcode}")            # 28 bytes shellcode
-log.info(f"lenght of shellcode: {len(shellcode)}")
+log.info(f"bytes of the shellcode: {shellcode}")            
+log.info(f"lenght of the shellcode: {len(shellcode)}")        # 28 bytes shellcode
